@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon01.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x3201.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x1601.png">
+    <link rel="manifest" href="./favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <title>TAMRALIPTA SAHOJOG FOUNDATION</title>
+</head>
+
+<body>
+    <nav class="hidden min-[960px]:block bg-pink-600 w-screen h-16 sticky top-0 left-0 z-50">
+        <div class="w-screen h-full flex box-border px-5 py-2 font-mono justify-between min-[980px]:justify-center">
+
+            <a href="./index.html" class="flex flex-nowrap w-[15vw] h-full">
+                <img src="./media/Sohojog  Foundation Logo.jpg" alt="LOGO" class="rounded-full h-full">
+                <p class="text-white font-semibold text-xl mt-2 ml-2">SAHOJOG</p>
+            </a>
+
+            <ul class="flex flex-nowrap w-[70vw] h-full justify-center">
+                <li class="nav_item"><a href="./index.html">HOME</a></li>
+                <li class="nav_item"><a href="#about_us">About US</a></li>
+                <li class="nav_item"><a href="#mission">Mission</a></li>
+                <li class="nav_item"><a href="#vision">Vision</a></li>
+                <li class="nav_item"><a target="_blank" href="./media/Rules & Regulation.pdf">Rules</a></li>
+                <li class="nav_item"><a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSeKYWvL-tNb7lhWY6pggYCuBN_sex6r_RBl9NCTp987VhxSJw/viewform?usp=sf_link"
+                        target="_blank">Join Us</a></li>
+                <li class="nav_item"><a href="">Donate Now</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="block min-[960px]:hidden bg-pink-600 w-screen h-16 sticky top-0 left-0 z-50">
+        <div class="w-screen h-full flex box-border px-5 py-2 font-mono justify-between min-[980px]:justify-center">
+
+            <a href="./index.html"
+                class="flex flex-nowrap w-[60vw] h-full min-[450px]:ml-10 min-[700px]:ml-16 min-[700px]:mr-6">
+                <img src="./media/Sohojog  Foundation Logo.jpg" alt="LOGO" class="rounded-full h-full">
+                <p class="text-white font-semibold text-xl mt-2 ml-2">SAHOJOG</p>
+            </a>
+            <button class="block material-symbols-outlined" id="menu_button">menu</button>
+        </div>
+        <ul class="nav-box2" id="nav-box2">
+            <li class="nav_item2 mt-5"><a href="./index.html">HOME</a>
+                <hr>
+            </li>
+            <li class="nav_item2"><button onclick="navigate('#about_us')">About US</button>
+                <hr>
+            </li>
+            <li class="nav_item2"><button onclick="navigate('#mission')">Mission</button>
+                <hr>
+            </li>
+            <li class="nav_item2"><button onclick="navigate('#vision')">Vision</button>
+                <hr>
+            </li>
+            <li class="nav_item2"><a target="_blank" href="./media/Rules & Regulation.pdf">Rules & Ragulatons</a>
+                <hr>
+            </li>
+            <li class="nav_item2"><button onclick="navigate('#myHeader')">Image Gallery</button>
+                <hr>
+            </li>
+            <li class="nav_item2"><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeKYWvL-tNb7lhWY6pggYCuBN_sex6r_RBl9NCTp987VhxSJw/viewform?usp=sf_link"
+                    target="_blank">Join Us</a>
+                <hr>
+            </li>
+            <li class="nav_item2"><a href="">Donate Now</a></li>
+        </ul>
+    </nav>
+
+    <div class="min-[780px]:flex min-[780px]:flex-nowrap min-[780px]:justify-between">
+
+        <div class="w-screen flex flex-col justify-center items-center py-4 px-3 min-[780px]:w-[45vw]">
+            <img src="./media/Sohojog  Foundation Logo.jpg" alt="Logo" class="mx-auto w-44 rounded-full">
+            <h1 class="text-2xl font-bold text-center text-pink-600 font-serif">TAMRALIPTA SAHOJOG FOUNDATION</h1>
+            <h2 class="text-xs font-semibold text-center">A Non-Profit Organization</h2><br>
+            <h2 class="text-[15px] font-semibold">ESTD : 2023</h2>
+            <button class="button rounded-full font-semibold font-sans"><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSeKYWvL-tNb7lhWY6pggYCuBN_sex6r_RBl9NCTp987VhxSJw/viewform?usp=sf_link">Join
+                    Us</a></button>
+        </div>
+
+        <div class="full-slider-box min-[780px]:w-[50vw] mx-3 sm:mx-5 md:mx-8">
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 6</div>
+                    <img src="./media/IMG-20231218-WA0008.jpg" style="width:100%">
+                    <div class="text">Caption Text</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 6</div>
+                    <img src="./media/IMG-20231218-WA0003.jpg" style="width:100%">
+                    <div class="text">Caption Two</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 6</div>
+                    <img src="./media/IMG-20231218-WA0010.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 6</div>
+                    <img src="./media/IMG-20231218-WA0013.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 6</div>
+                    <img src="./media/IMG-20231218-WA0006.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 6</div>
+                    <img src="./media/IMG-20231218-WA0005.jpg" style="width:100%">
+                    <div class="text">Caption Three</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+
+            <div class="text-center mt-2">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="about_us" class="w-screen py-4 px-0 card" data-animation="scale_up_center">
+        <div class="bg-pink-600 w-full skew-y-[-3deg] h-20 py-6">
+            <h1 class="text-3xl font-bold text-center text-white w-full font-serif skew-y-3">About Us</h1>
+        </div>
+        <p class="text-center text-sm w-[80vw] md:w-[550px] lg:w-[700px] mx-auto mt-8"><strong>Tamralipta Sahojog
+                Foundation</strong> is a non-profit organization dedicated to <strong>empower marginalized communities
+                through sustainable development initiatives , promoting education, healthcare, and economic
+                opportunities, and fostering social and environmental justice.</strong> It was established in the year
+            of 2023 at the historical place Tamluk, Purba Medinipur. <br><br>
+
+            Our Organization is led by the board of governing body including <strong> President, Joint Secretaries,
+                Treasurer, Vice-President, Assistant Treasurer, Auditor and Management Committee.</strong> The other
+            members are called as <strong>General Members.</strong> <br><br>
+
+            At Foundation, we are guided by a set of core values including <strong> integrity, transparency,
+                etc.</strong> These principles form the foundation of our approach to <strong> help the poor people in
+                different types of cases such as education, economical matters, hospitality and other necessary
+                things.</strong> You can be a part of our mission by volunteer, donation, or supporting us in any
+            situation.
+        </p>
+    </div>
+
+    <div id="mission" class="w-screen my-8 card" data-animation="scale_up_center">
+        <h2
+            class="rounded-r-full w-[70vw] sm:w-[50vw] bg-pink-600 h-14 py-3 text-white font-semibold font-serif text-xl text-center">
+            Our Mission</h2>
+        <p class="w-[70vw] sm:w-[50vw] ml-[6vw] text-center text-sm my-6">
+            Our mission is to <strong>empower marginalized communities through sustainable development initiatives,
+                promoting education, healthcare, and economic opportunities, and fostering social and
+                environmental justice, striving towards a world where every individual has access to education,
+                healthcare, and economic opportunities, and where social and environmental equity prevail, fostering
+                thriving and resilient communities.</strong>
+        </p>
+    </div>
+    <div id="vision" class="w-screen my-8 card" data-animation="scale_up_center">
+        <h2
+            class="rounded-l-full w-[70vw] sm:w-[50vw] bg-pink-600 h-14 float-right py-3 text-white font-semibold font-serif text-xl text-center">
+            Our Vision</h2>
+        <p class="float-right w-[70vw] sm:w-[50vw] mr-[6vw] text-center text-sm my-6 font-semibold">
+            A world where every individual has access to education, healthcare, and economic opportunities, and where
+            social and environmental equity prevail, fostering thriving and resilient communities.
+        </p>
+    </div>
+
+    
+    <div class="bg-pink-600 h-auto w-screen skew-y-[-3deg] mt-[300px] md:mt-56 min-[450px]:mt-[250px]">
+        <div class="skew-y-3 w-[92vw] mx-auto py-3 sm:w-[76vw] md:w-[60vw] lg:w-[50vw]">
+
+            <h2 class="font-sans text-3xl font-bold mb-7 text-center mt-4">Our Governing Body</h2>
+
+            <div class="flex w-full flex-nowrap justify-start my-3 scale_animation">
+                <img src="./media/president.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full mr-3 min-[550px]:w-28 min-[550px]:h-28">
+                <p class="text-[13px] font-serif min-[550px]:text-[16px] text-white">
+                    <strong>President</strong><br>
+                    <span>Mr. Sayan Das</span><br>
+                    <a href="tel:+8768286881">Ph no : 8768286881</a><br>
+                    <a href="mailto:sayandas9989@gmail.com">Email : sayandas9989@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-end my-3 scale_animation">
+                <p class="text-[13px] font-serif text-right min-[550px]:text-[16px]">
+                    <strong>Vice-President</strong><br>
+                    <span>Mr. Sankab Bera</span><br>
+                    <a href="tel:+8695100565">Ph no : 8695100565</a><br>
+                    <a href="mailto:berasankab@gmail.com">Email : berasankab@gmail.com</a>
+                </p>
+                <img src="./media/vice_president.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full ml-3 min-[550px]:w-28 min-[550px]:h-28">
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-start my-3 scale_animation">
+                <img src="./media/secratory_1.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full mr-3 min-[550px]:w-28 min-[550px]:h-28">
+                <p class="text-[13px] font-serif min-[550px]:text-[16px] text-white">
+                    <strong>Joint-Secretary(1)</strong><br>
+                    <span>Mr. Amritendu Das</span><br>
+                    <a href="tel:+8116926300">Ph no : 8116926300</a><br>
+                    <a href="mailto:dasamritendu619@gmail.com">Email : dasamritendu619@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-end my-3 scale_animation">
+                <p class="text-[13px] font-serif text-right min-[550px]:text-[16px]">
+                    <strong>Joint-Secretary(2)</strong><br>
+                    <span>Mr. Chandramouli Maji</span><br>
+                    <a href="tel:+7384755847">Ph no : 7384755847</a><br>
+                    <a href="mailto:chandramoulimaji9@gmail.com">Email : chandramoulimaji9@gmail.com</a>
+                </p>
+                <img src="./media/profile-user.png" alt="Logo"
+                    class="h-24 w-24 rounded-full ml-3 min-[550px]:w-28 min-[550px]:h-28">
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-start my-3 scale_animation">
+                <img src="./media/profile-user.png" alt="Logo"
+                    class="h-24 w-24 rounded-full mr-3 min-[550px]:w-28 min-[550px]:h-28">
+                <p class="text-[13px] font-serif min-[550px]:text-[16px] text-white">
+                    <strong>Treasurer</strong><br>
+                    <span>Mr. Sougata Saha</span><br>
+                    <a href="tel:+8293070038">Ph no : 8293070038</a><br>
+                    <a href="mailto:sahamintu543@gmail.com">Email : sahamintu543@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-end my-3 scale_animation">
+                <p class="text-[13px] font-serif text-right min-[550px]:text-[16px]">
+                    <strong>Assistant Treasurer</strong><br>
+                    <span>Mr. Souvik Dinda</span><br>
+                    <a href="tel:+9635376885">Ph no : 9635376885</a><br>
+                    <a href="mailto:souvikdinda29@gmail.com">Email : souvikdinda29@gmail.com</a>
+                </p>
+                <img src="./media/ass_tre.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full ml-3 min-[550px]:w-28 min-[550px]:h-28">
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-start my-3 scale_animation">
+                <img src="./media/auditor.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full mr-3 min-[550px]:w-28 min-[550px]:h-28">
+                <p class="text-[13px] font-serif min-[550px]:text-[16px] text-white">
+                    <strong>Auditor</strong><br>
+                    <span>Mr. Subhadip Singha</span><br>
+                    <a href="tel:+8906644306">Ph no : 8906644306</a><br>
+                    <a href="mailto:subhadipofficial2002@gmail.com">Email : subhadipofficial2002@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="flex w-full flex-nowrap justify-end my-3 scale_animation">
+                <p class="text-[13px] font-serif text-right min-[550px]:text-[16px]">
+                    <strong>Management Committee(1)</strong><br>
+                    <span>Mr. Debajyoti Bhunia</span><br>
+                    <a href="tel:+8207287042">Ph no : 8207287042</a><br>
+                    <a href="mailto: debajyotib123@gmail.com">Email : debajyotib123@gmail.com</a>
+                </p>
+                <img src="./media/mc1.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full ml-3 min-[550px]:w-28 min-[550px]:h-28">
+            </div>
+            <div class="flex w-full flex-nowrap justify-start my-3 scale_animation">
+                <img src="./media/mc2.jpeg" alt="Logo"
+                    class="h-24 w-24 rounded-full mr-3 min-[550px]:w-28 min-[550px]:h-28">
+                <p class="text-[13px] font-serif min-[550px]:text-[16px] text-white">
+                    <strong>Management Committee(2)</strong><br>
+                    <span>Mr. Soumyadip Das</span><br>
+                    <a href="tel:+8436307102">Ph no : 8436307102</a><br>
+                    <a href="mailto:soumyabipd@gmail.com">Email : soumyabipd@gmail.com</a>
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="header" id="myHeader">
+        <h1 class="font-sans text-3xl font-bold mb-4 sm:text-5xl">Our Image Gallery</h1>
+        <p class="text-[14px] mb-4">Click on the buttons to change the grid view.</p>
+        <button class="btn" onclick="one(this)">1</button>
+        <button class="btn activebtn" onclick="two(this)">2</button>
+        <button class="btn" onclick="four(this)">4</button>
+    </div>
+
+    <!-- Photo Grid -->
+    <div class="row">
+        <div class="column">
+            <img src="./media/IMG-20231218-WA0003.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0004.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0005.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0006.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0007.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0008.jpg" loading="lazy" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="./media/IMG-20231218-WA0009.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0010.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0011.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0012.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231218-WA0013.jpg" loading="lazy" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="./media/IMG-20231223-WA0000.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0001.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0002.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0003.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0004.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0005.jpg" loading="lazy" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="./media/IMG-20231223-WA0006.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0007.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0008.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0009.jpg" loading="lazy" style="width:100%">
+            <img src="./media/IMG-20231223-WA0000.jpg" loading="lazy" style="width:100%">
+        </div>
+    </div>
+    <hr>
+
+    <div class="w-screen h-auto my-6 px-[5vw] sm:px-[8vw] md:px-[12vw] lg:px-[20vw]">
+        <p class="text-3xl font-semibold text-pink-600">To be part of our organization <br> and be someone's reason to
+            smile </p>
+        <button class="button rounded-full font-semibold font-sans"><a
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeKYWvL-tNb7lhWY6pggYCuBN_sex6r_RBl9NCTp987VhxSJw/viewform?usp=sf_link">Join
+                Us</a></button>
+    </div>
+
+    <footer class="w-screen h-auto pb-16 pt-6 bg-pink-600">
+
+        <div class="w-screen h-auto min-[700px]:flex min-[700px]:justify-center">
+            <div class="mx-8 mt-3">
+                <img src="./media/sampl_qr.png" alt="qrCode" class="w-40 mx-auto">
+                <span class="block text-center font-sans text-xl font-bold text-white">Donate through UPI</span>
+
+            </div>
+            <div class="font-sans mx-auto sm:mx-8">
+                <p class="text-2xl font-bold text-center my-4">Contact Us</p>
+                <p class="text-[15px] justify-center my-2 text-white font-semibold flex flex-nowrap"><img
+                        class="w-6 mx-2" src="./media/home.png" alt="Address :"> Tamluk, Purba Medinipur</p>
+                <a class="text-[15px] justify-center my-2 text-white font-semibold flex flex-nowrap"
+                    href="tel:+8116926300"><img class="w-6 mx-2" src="./media/call.png" alt="Phone :"> +91
+                    8116926300</a>
+                <a class="text-[15px] justify-center my-2 text-white font-semibold flex flex-nowrap"
+                    href="mailto:sahojogtmk2023@gmail.com"><img class="w-6 mx-2" src="./media/email.png" alt="Email :">
+                    sahojogtmk2023@gmail.com</a>
+            </div>
+            <div class="mx-auto sm:mx-8">
+                <p class="text-2xl font-bold font-sans text-center mt-8 mb-6">Follow Us on</p>
+                <div class="flex flex-nowrap justify-center">
+                    <a href="https://www.facebook.com/profile.php?id=100095342704688&mibextid=ZbWKwL" target="_blank"><img src="./media/facebook-app-symbol.png" alt="facebook"
+                            class="w-8 mx-2"></a>
+                    <a href="https://instagram.com/sohojog_tmk_official?igshid=MWZjMTM2ODFkZg==" target="_blank"><img src="./media/instagram.png" alt="instagram" class="w-8 mx-2"></a>
+                    <a href="https://twitter.com/sahojogtmk2023" target="_blank"><img src="./media/twitter.png" alt="twitter" class="w-8 mx-2"></a>
+                    <a href="https://www.youtube.com/@TamraliptaSahojogfoundation" target="_blank"><img src="./media/youtube.png" alt="youtube" class="w-8 mx-2"></a>
+                </div>
+            </div>
+        </div>
+            <p class="text-center mt-8 text-white px-4">Copyright &#169; 2023 | Tamralipta Sahojog Foundation</p>
+    </footer>
+
+    <div class="fixed bottom-0 left-0 flex flex-nowrap w-screen h-12">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeKYWvL-tNb7lhWY6pggYCuBN_sex6r_RBl9NCTp987VhxSJw/viewform?usp=sf_link"
+            class="text-pink-600 bg-white font-bold w-[50vw] text-center py-3 hover:underline" target="_blank">JOIN
+            US</a>
+        <a href="" class="bg-pink-600 text-white font-bold w-[50vw] text-center py-3 hover:underline">DONATE</a>
+    </div>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="./script.js"></script>
+
+
+</body>
+
+</html>
